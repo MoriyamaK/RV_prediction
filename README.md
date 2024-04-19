@@ -9,7 +9,6 @@ This repository used code of the paper `Neural Ordinary Differential Equations`,
 
 # Dependency
 * Python >= 3.9
-* PyTorch == 2.2.2
 * arch == 6.1.0
 
 * Install required Python packages:
