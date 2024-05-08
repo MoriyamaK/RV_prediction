@@ -9,7 +9,6 @@ This repository used code of the paper `Neural Ordinary Differential Equations`,
 
 # Dependency
 * Python >= 3.9
-* PyTorch == 2.2.2
 * arch == 6.1.0
 
 * Install required Python packages:
@@ -63,7 +62,7 @@ INFO   A  1.012326
 ```
 
 ## Hyperparameter searching
-We utilize the model's Negative Log-Likelihood (NLL) on the evaluation set as the criterion for hyperparameter search. The model undergoes training for 200 iterations and is evaluated after every 5 iterations. During each evaluation, a snapshot is saved, resulting in 20 snapshots over the 200 iterations of training. The best snapshot is then used for testing.
+We utilize the model's Negative Log-Likelihood (NLL) on the evaluation set as the criterion for hyperparameter search. The model undergoes training for 200 iterations and is evaluated after every 5 iterations. During each evaluation, a snapshot is saved, resulting in 40 snapshots over the 200 iterations of training. The best snapshot is then used for testing.
 
 For managing our experiment records, we've employed the `wandb` tool. To synchronize the experiment records with the wandb cloud, simply run the `run.py` script and specify `--use_wandb`. Before running the script, ensure you've configured the `wandb_setting.py`. Here are the necessary steps:
 
