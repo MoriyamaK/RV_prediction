@@ -1,7 +1,7 @@
-tqdm
-wandb
-matplotlib
-rich
+tqdm==4.65.0
+matplotlib==3.7.1
+rich==13.3.5
+wandb==0.15.3
 arch==6.0.1
 torchdiffeq==0.2.3
 torch==2.2.2
